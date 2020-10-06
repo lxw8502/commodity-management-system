@@ -1,0 +1,9 @@
+{
+  "name": "cms",
+  "version": "1.0.0",
+  "description": "commodity backstage manangement system",
+  "main": "index.js",
+  "repository": "https://github.com/lxw8502/commodity-management-system.git",
+  "author": "Russell Wang ",
+  "license": "MIT"
+}
