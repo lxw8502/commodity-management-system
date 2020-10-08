@@ -1,10 +1,9 @@
 # Commodity backstage management system install and start methods
 
 ## Environment depandencies:
-```
-install nodejs v6.12.3
+
+install nodejs
 install yarn
-```
 
 ## Project initialization method:
 install depandencies：  
