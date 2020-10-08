@@ -2,7 +2,7 @@
 
 ## Environment depandencies:
 
-install nodejs
+install nodejs       
 install yarn
 
 ## Project initialization method:
