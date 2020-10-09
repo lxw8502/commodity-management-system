@@ -1,16 +1,15 @@
-import React            from 'react';
-import ReactDOM         from 'react-dom';
+import React from 'react';
+import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Switch, Redirect, Route, Link } from 'react-router-dom'
 
-import Layout           from 'component/layout/index.jsx';
-// page
-import Home             from 'page/home/index.jsx';
-import ProductRouter    from 'page/product/router.jsx';
-import Login            from 'page/login/index.jsx';
-import OrderList        from 'page/order/index.jsx';
-import OrderDetail      from 'page/order/detail.jsx';
-import UserList         from 'page/user/index.jsx';
-import ErrorPage        from 'page/error/index.jsx';
+import Layout from 'component/layout/index.jsx';
+import Home from 'page/home/index.jsx';
+import ProductRouter from 'page/product/router.jsx';
+import Login from 'page/login/index.jsx';
+import OrderList from 'page/order/index.jsx';
+import OrderDetail from 'page/order/detail.jsx';
+import UserList from 'page/user/index.jsx';
+import ErrorPage from 'page/error/index.jsx';
 
 class App extends React.Component{
     render(){

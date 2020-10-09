@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import {Link, NavLink} from 'react-router-dom';
 
 class NavSide extends React.Component{
     constructor(props){
@@ -13,45 +13,45 @@ class NavSide extends React.Component{
                         <li>
                             <NavLink exact activeClassName="active-menu" to="/">
                                 <i className="fa fa-dashboard"></i>
-                                <span>首页</span>
+                                <span>Home</span>
                             </NavLink>
                         </li>
                         <li className="active">
                             <Link to="/product">
                                 <i className="fa fa-list"></i>
-                                <span>商品</span>
+                                <span>Commodity</span>
                                 <span className="fa arrow"></span>
                             </Link>
                             <ul className="nav nav-second-level collapse in">
                                 <li>
-                                    <NavLink to="/product" activeClassName="active-menu">商品管理</NavLink>
+                                    <NavLink to="/product" activeClassName="active-menu">Commodity Management</NavLink>
                                 </li>
                                 <li>
-                                    <NavLink to="/product-category" activeClassName="active-menu">品类管理</NavLink>
+                                    <NavLink to="/product-category" activeClassName="active-menu">Category Management</NavLink>
                                 </li>
                             </ul>
                         </li>
                         <li className="active">
                             <Link to="/order">
                                 <i className="fa fa-check-square-o"></i>
-                                <span>订单</span>
+                                <span>Order</span>
                                 <span className="fa arrow"></span>
                             </Link>
                             <ul className="nav nav-second-level collapse in">
                                 <li>
-                                    <NavLink to="/order" activeClassName="active-menu">订单管理</NavLink>
+                                    <NavLink to="/order" activeClassName="active-menu">Order Management</NavLink>
                                 </li>
                             </ul>
                         </li>
                         <li className="active">
                             <Link to="/user">
                                 <i className="fa fa-user-o"></i>
-                                <span>用户</span>
+                                <span>User</span>
                                 <span className="fa arrow"></span>
                             </Link>
                             <ul className="nav nav-second-level collapse in">
                                 <li>
-                                    <NavLink to="/user" activeClassName="active-menu">用户管理</NavLink>
+                                    <NavLink to="/user" activeClassName="active-menu">User Management</NavLink>
                                 </li>
                             </ul>
                         </li>

@@ -13,10 +13,10 @@ module.exports = {
   },
   resolve: {
     alias : {
-        page        : path.resolve(__dirname, 'src/page'),
-        component   : path.resolve(__dirname, 'src/component'),
-        util        : path.resolve(__dirname, 'src/util'),
-        service     : path.resolve(__dirname, 'src/service')
+        page: path.resolve(__dirname, 'src/page'),
+        component: path.resolve(__dirname, 'src/component'),
+        util: path.resolve(__dirname, 'src/util'),
+        service: path.resolve(__dirname, 'src/service')
     }
   },
   plugins: [
@@ -108,7 +108,10 @@ module.exports = {
   devServer: {
     contentBase: path.join(__dirname, 'dist'),
     compress: true,
-    port: 9000
+    port: 9000,
+    historyApiFallback: {
+        index: "/dist/index.html"
+    }
   }
 };
 
